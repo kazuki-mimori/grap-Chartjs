@@ -1,0 +1,38 @@
+.PolygonalLine {
+  background-color: #fff;
+  padding: 20px;
+  height: 400px;
+  .graph {
+    padding-top: 15px;
+    height: auto;
+  }
+  .fristSction {
+    padding: 5px 20px 20px 20px;
+  }
+  .ProbabilityDeals {
+    display: flex;
+    align-items: flex-end;
+    .label {
+      font-size: 18px;
+      margin-right: 10px;
+    }
+    .matter {
+      font-size: 18px;
+      color: #398ff2;
+      font-weight: 900;
+      margin-right: 10px;
+    }
+    .probability {
+      display: flex;
+
+      font-size: x-small;
+    }
+  }
+  .Explanation {
+    display: flex;
+    justify-content: flex-end;
+    .firstExplanation {
+      margin-right: 15px;
+    }
+  }
+}

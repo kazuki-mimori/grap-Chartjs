@@ -1,0 +1,68 @@
+@import "./../../styles/index.scss";
+@import "./../../styles/variable.scss";
+
+.Dashboard {
+  padding: 26px 24px 5px 22px;
+  color: black;
+  .firstSection {
+    @extend .flex-between;
+    display: flex;
+    .label {
+      @extend .font-20;
+      font-weight: 700;
+    }
+  }
+
+  :global {
+    .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+      background-color: #f6f6f2;
+      color: #00a19d;
+      width: 94px;
+    }
+    .ant-tabs-tab-btn {
+      color: #999999;
+      border-color: none;
+      background-color: #f6f6f2;
+      border: none;
+      width: 94px;
+    }
+    .styles_Dashboard__RqhPx
+      .ant-tabs-tab.ant-tabs-tab-active
+      .ant-tabs-tab-btn {
+      background-color: #f6f6f2;
+      border-color: none;
+    }
+    .ant-tabs > .ant-tabs-nav .ant-tabs-nav-list,
+    .ant-tabs > div > .ant-tabs-nav .ant-tabs-nav-list {
+      border: black;
+    }
+  }
+  .secondSection {
+    .companiesNumber {
+      font-size: 30px;
+      font-weight: bold;
+    }
+    .companyIcon {
+      display: flex;
+      align-items: center;
+      height: 30px;
+      .company {
+        font-size: 18px;
+      }
+    }
+
+    .maincard {
+      height: 180px;
+      color: #ffff;
+
+      .ArrowImg {
+        transform: rotate(45deg);
+        margin-left: 5px;
+      }
+      .iconImg {
+        font-size: 100px;
+        width: 45px;
+      }
+    }
+  }
+}

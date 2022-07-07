@@ -1,0 +1,19 @@
+.Graph {
+  background-color: #fff;
+  padding: 20px;
+  height: 400px;
+  .graph {
+    padding-top: 10px;
+    height: auto;
+  }
+  .firstSection {
+    padding: 5px 20px 10px 20px;
+  }
+  .Explanation {
+    display: flex;
+    justify-content: flex-end;
+    .firstExplanation {
+      margin-right: 15px;
+    }
+  }
+}
